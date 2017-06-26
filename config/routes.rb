@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :portfolios
   get 'pages/home'
      @post = Blog.all
   get 'pages/about'
